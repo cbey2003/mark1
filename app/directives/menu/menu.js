@@ -17,7 +17,7 @@ angular.module('myApp.menu', [])
             path : '@menuSrc'
         },
 
-        templateUrl: 'components/menu/menu.html',
+        templateUrl: 'directives/menu/menu.html',
 
         controller: ['$scope','$http', function ngMenuController($scope, $http){
             var self = this;
