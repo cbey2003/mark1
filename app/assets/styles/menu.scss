@@ -1,0 +1,166 @@
+$itemH: 26px;
+
+@mixin submenu-height($len){
+  height: $len * $itemH;
+  line-height: $itemH;
+}
+
+header{
+  display:block;
+  clear:both;
+  content:'';
+  position:relative;
+  border-bottom:1px solid #eee;
+  float:left;
+  width:100%;
+  margin:0 auto 20px;
+
+  .brand-logo{
+    display:block;
+    width:160px;
+    height: 60px;
+    background: #eee;
+    float:left;
+    cursor: pointer;
+  }
+
+  ul{
+    display:block;
+    content:'';
+    margin:0;
+    padding:0;
+  }
+
+  .menu{
+    float:left;
+    clear:both;
+    position:relative;
+
+    ul {
+
+      li {
+        float: left;
+        list-style: none;
+        padding: 5px 30px;
+        margin: 0;
+        position: relative;
+        cursor: pointer;
+        height: 50px;
+        line-height: 50px;
+        text-align: center;
+
+        &:hover {
+
+          + a {
+            color: red;
+          }
+
+          ul {
+            visibility: visible;
+            overflow: hidden;
+            z-index: 9;
+
+            li {
+
+              & :hover {
+                background: #333;
+                color: #fff;
+              }
+
+            }
+          }
+
+          .sub-menu-h1{
+            @include submenu-height(1);
+          }
+
+          .sub-menu-h2{
+            @include submenu-height(2);
+          }
+
+          .sub-menu-h3{
+            @include submenu-height(3);
+          }
+
+          .sub-menu-h4{
+            @include submenu-height(4);
+          }
+
+          .sub-menu-h5{
+            @include submenu-height(5);
+          }
+
+          .sub-menu-h6{
+            @include submenu-height(6);
+          }
+
+          .sub-menu-h7{
+            @include submenu-height(7);
+          }
+
+          .sub-menu-h8{
+            @include submenu-height(8);
+          }
+
+          .sub-menu-h9{
+            @include submenu-height(9);
+          }
+
+          .sub-menu-h10{
+            @include submenu-height(10);
+          }
+
+        }
+
+        ul {
+          visibility: collapse;
+          position: absolute;
+          width: 140px;
+          height: 0;
+          margin: 0;
+          background: #eee;
+          z-index: 0;
+          overflow: hidden;
+          -webkit-transition: all 0.3s ease-in;
+          -moz-transition: all 0.3s ease-in;
+          -ms-transition: all 0.3s ease-in;
+          -o-transition: all 0.3s ease-in;
+          transition: all 0.3s ease-in;
+
+          li {
+            width: 100%;
+            color: #333;
+            float: none;
+            clear: both;
+            display: block;
+            height: auto;
+            line-height: 20px;
+            padding: 5px 10px;
+            text-align: left;
+          }
+
+        }
+
+      }
+    }
+  }
+
+  .primary.menu{
+    clear:none;
+  }
+
+  a{
+    text-decoration:none;
+    font-weight:600;
+    color:#333;
+  }
+
+
+
+}
+
+div{
+  clear:both;
+  content:'';
+  display:block;
+}

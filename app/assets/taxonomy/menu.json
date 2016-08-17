@@ -1,0 +1,116 @@
+[
+  {
+    "label": "item 0",
+    "url": "#item0",
+    "tracking":"menu.link.click.item0",
+    "submenu":[
+      {
+        "label": "sub-item 0",
+        "url": "#item0/sub-item0",
+        "tracking":"menu.link.click.item0.subitem0"
+      },
+      {
+        "label": "sub-item 1",
+        "url": "#item0/sub-item1",
+        "tracking":"menu.link.click.item0.subitem1"
+      },
+      {
+        "label": "sub-item 2",
+        "url": "#item0/sub-item2",
+        "tracking":"menu.link.click.item0.subitem2"
+      }
+    ]
+  },
+  {
+    "label": "view 1",
+    "url": "#/view1",
+    "tracking":"menu.link.click.item1",
+    "submenu":[
+      {
+        "label": "sub-item 0",
+        "url": "#item1/sub-item0",
+        "tracking":"menu.link.click.item1.subitem0"
+      },
+      {
+        "label": "sub-item 1",
+        "url": "#item1/sub-item1",
+        "tracking":"menu.link.click.item1.subitem1"
+      },
+      {
+        "label": "sub-item 2",
+        "url": "#item1/sub-item2",
+        "tracking":"menu.link.click.item1.subitem2"
+      },
+      {
+        "label": "sub-item 3",
+        "url": "#item1/sub-item3",
+        "tracking":"menu.link.click.item1.subitem3"
+      }
+    ]
+  },
+  {
+    "label": "view 2",
+    "url": "#/view2",
+    "tracking":"menu.link.click.item2",
+    "submenu":[
+      {
+        "label": "sub-item 0",
+        "url": "#item2/sub-item0",
+        "tracking":"menu.link.click.item2.subitem0"
+      },
+      {
+        "label": "sub-item 1",
+        "url": "#item2/sub-item1",
+        "tracking":"menu.link.click.item2.subitem1"
+      },
+      {
+        "label": "sub-item 2",
+        "url": "#item2/sub-item2",
+        "tracking":"menu.link.click.item2.subitem2"
+      }
+    ]
+  },
+  {
+    "label": "item 3",
+    "url": "#item3",
+    "tracking":"menu.link.click.item3"
+  },
+  {
+    "label": "item 4",
+    "url": "#item4",
+    "tracking":"menu.link.click.item4",
+    "submenu":[
+      {
+        "label": "sub-item 0",
+        "url": "#item2/sub-item0",
+        "tracking":"menu.link.click.item2.subitem0"
+      },
+      {
+        "label": "sub-item 1",
+        "url": "#item2/sub-item1",
+        "tracking":"menu.link.click.item2.subitem1"
+      },
+      {
+        "label": "sub-item 2",
+        "url": "#item2/sub-item2",
+        "tracking":"menu.link.click.item2.subitem2"
+      },
+      {
+        "label": "sub-item 3",
+        "url": "#item2/sub-item2",
+        "tracking":"menu.link.click.item2.subitem2"
+      },
+      {
+        "label": "sub-item 4",
+        "url": "#item2/sub-item2",
+        "tracking":"menu.link.click.item2.subitem2"
+      },
+      {
+        "label": "sub-item 5",
+        "url": "#item2/sub-item2",
+        "tracking":"menu.link.click.item2.subitem2"
+      }
+
+    ]
+  }
+]

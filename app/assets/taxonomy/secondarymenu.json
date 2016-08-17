@@ -1,0 +1,34 @@
+[
+  {
+    "label": "secondary item 0",
+    "url": "#item3",
+    "tracking":"menu.link.click.item3"
+  },
+  {
+    "label": "secondary item 1",
+    "url": "#item3",
+    "tracking":"menu.link.click.item3",
+    "submenu":[
+      {
+        "label": "sub-item 0",
+        "url": "#item0/sub-item0",
+        "tracking":"menu.link.click.item0.subitem0"
+      },
+      {
+        "label": "sub-item 1",
+        "url": "#item0/sub-item1",
+        "tracking":"menu.link.click.item0.subitem1"
+      },
+      {
+        "label": "sub-item 2",
+        "url": "#item0/sub-item2",
+        "tracking":"menu.link.click.item0.subitem2"
+      }
+    ]
+  },
+  {
+    "label": "secondary item 2",
+    "url": "#item4",
+    "tracking":"menu.link.click.item4"
+  }
+]

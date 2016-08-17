@@ -1,0 +1,14 @@
+<div class="{{menutype}} menu" id="{{id}}">
+    <ul class="menu-list">
+        <li ng-repeat="item in menuItems">
+            <a href="{{item.url}}" title="{{item.label}}" tracking="{{item.tracking}}">
+                <span>{{item.label}}</span>
+            </a>
+            <ul class="sub-menu sub-menu-h{{item.submenu.length+1}}" ng-if="item.submenu.length > 0">
+                <li ng-repeat="sub in item.submenu">
+                    <span>{{sub.label}}</span>
+                </li>
+            </ul>
+        </li>
+    </ul>
+</div>
