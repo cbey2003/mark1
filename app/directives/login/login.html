@@ -1,4 +1,7 @@
 <div class="class-login">
-    <div>{{username}}</div>
-    <div>{{password}}</div>
+    <input id="login-username" ng-model="username" value="{{username}}" />
+    <input id="login-password" ng-model="password" value="{{password}}" />
+
+    <span ng-bind="username"></span>
+    <span ng-bind="password"></span>
 </div>
