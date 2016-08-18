@@ -7,5 +7,6 @@ angular.module('myApp', [
   'myApp.view2',
   'myApp.menu',
   'myApp.login',
-  'myApp.version'
+  'myApp.version',
+  'myApp.accordion'
 ]);

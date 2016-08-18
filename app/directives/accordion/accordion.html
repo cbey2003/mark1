@@ -1,0 +1,11 @@
+<div class="class-accordion" id="{{id}}">
+    <ul>
+        <li ng-repeat="item in accordionItems">
+            <input type="radio" name="acr-grp-{{id}}" id="acr-grp-{{id}}-rdo-{{$index}}">
+            <label for="acr-grp-{{id}}-rdo-{{$index}}">{{item.label}}</label>
+            <div class="accordion-desc" >
+                {{item.description}}
+            </div>
+        </li>
+    </ul>
+</div>

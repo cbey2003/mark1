@@ -1,0 +1,21 @@
+.class-accordion{
+
+  ul{
+    list-style:none;
+    li{
+      input{
+        &:checked{
+          ~ .accordion-desc{
+            height:100px;
+            visibility: visible;
+          }
+        }
+      }
+      .accordion-desc{
+        height:0;
+        overflow: hidden;
+        visibility: collapse;
+      }
+    }
+  }
+}

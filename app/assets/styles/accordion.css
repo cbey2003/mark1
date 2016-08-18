@@ -1,0 +1,11 @@
+.class-accordion ul {
+  list-style: none; }
+  .class-accordion ul li input:checked ~ .accordion-desc {
+    height: 100px;
+    visibility: visible; }
+  .class-accordion ul li .accordion-desc {
+    height: 0;
+    overflow: hidden;
+    visibility: collapse; }
+
+/*# sourceMappingURL=accordion.css.map */
