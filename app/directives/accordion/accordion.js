@@ -10,6 +10,12 @@ angular.module('myApp.accordion', [])
                 path : '@accordionSrc'
             },
 
+            link:function ( scope, element, attrs ) {
+                scope.handleClick = function(){
+                    console.log(attrs)
+                }
+            },
+
             templateUrl: 'directives/accordion/accordion.html',
 
             controller: ['$scope','$http', function ngAccordionController($scope, $http){
