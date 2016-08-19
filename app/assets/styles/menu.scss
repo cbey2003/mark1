@@ -1,10 +1,5 @@
 $itemH: 26px;
 
-@mixin submenu-height($len){
-  height: $len * $itemH;
-  line-height: $itemH;
-}
-
 header{
   display:block;
   clear:both;

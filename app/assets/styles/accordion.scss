@@ -1,20 +1,21 @@
+
 .class-accordion{
 
   ul{
     list-style:none;
     li{
+      @include transition(left 0.8s ease-in-out);
       input{
         &:checked{
           ~ .accordion-desc{
             height:100px;
-            visibility: visible;
           }
         }
       }
       .accordion-desc{
         height:0;
         overflow: hidden;
-        visibility: collapse;
+        @include transition(all 0.8s ease-in-out);
       }
     }
   }
