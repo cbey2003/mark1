@@ -28,12 +28,25 @@
 </header>
 
 
-<div>
+<div style="width:300px;">
 
   <ng-accordion accordion-Id="acr1" accordion-src="assets/content/accordion.json"></ng-accordion>
 
 </div>
 
+
+<div>
+  <input type="checkbox" ng-true-value="1" ng-model="req_doc">one
+  <input type="checkbox" ng-true-value="2" ng-model="req_doc">two
+  <input type="checkbox" ng-true-value="3" ng-model="req_doc">three
+</div>
+
+
+<!--div>
+  <input type="checkbox" ng-true-value="1" ng-checked="!req_doc">one-one
+  <input type="checkbox" ng-true-value="2" ng-checked="!req_doc">two-two
+  <input type="checkbox" ng-true-value="3" ng-checked="!req_doc">three-three
+</div-->
 
   <!--[if lt IE 7]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>

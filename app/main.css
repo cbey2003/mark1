@@ -1,21 +1,51 @@
-.class-accordion ul {
-  list-style: none; }
-  .class-accordion ul li {
-    -webkit-transition: left 0.8s ease-in-out;
-    -moz-transition: left 0.8s ease-in-out;
-    -ms-transition: left 0.8s ease-in-out;
-    -o-transition: left 0.8s ease-in-out;
-    transition: left 0.8s ease-in-out; }
-    .class-accordion ul li input:checked ~ .accordion-desc {
-      height: 100px; }
-    .class-accordion ul li .accordion-desc {
-      height: 0;
+.class-accordion {
+  margin: 0 0 20px; }
+  .class-accordion ul {
+    list-style: none;
+    width: auto;
+    display: block;
+    margin: 0;
+    padding: 0; }
+    .class-accordion ul li {
+      position: relative;
       overflow: hidden;
-      -webkit-transition: all 0.8s ease-in-out;
-      -moz-transition: all 0.8s ease-in-out;
-      -ms-transition: all 0.8s ease-in-out;
-      -o-transition: all 0.8s ease-in-out;
-      transition: all 0.8s ease-in-out; }
+      margin: -1px 0;
+      -webkit-transition: left 0.8s ease-in-out;
+      -moz-transition: left 0.8s ease-in-out;
+      -ms-transition: left 0.8s ease-in-out;
+      -o-transition: left 0.8s ease-in-out;
+      transition: left 0.8s ease-in-out; }
+      .class-accordion ul li input {
+        visibility: collapse;
+        position: absolute; }
+        .class-accordion ul li input:checked ~ .accordion-desc {
+          height: 100px;
+          visibility: visible;
+          padding: 5%; }
+      .class-accordion ul li label {
+        border: 1px solid #ccc;
+        padding: 2% 5%;
+        background: #eee;
+        color: #333;
+        font-weight: 600;
+        width: 89%;
+        display: block;
+        cursor: pointer;
+        text-transform: capitalize;
+        outline: none; }
+      .class-accordion ul li .accordion-desc {
+        height: 0;
+        width: 89%;
+        overflow: hidden;
+        visibility: collapse;
+        -webkit-transition: all 0.4s ease-in-out;
+        -moz-transition: all 0.4s ease-in-out;
+        -ms-transition: all 0.4s ease-in-out;
+        -o-transition: all 0.4s ease-in-out;
+        transition: all 0.4s ease-in-out;
+        padding: 0 5%;
+        border: 1px solid #ccc;
+        margin: -2px 0 0; }
 
 header {
   display: block;
