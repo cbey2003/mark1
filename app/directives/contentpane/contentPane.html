@@ -1,0 +1,11 @@
+<div class="class-content-pane" id="{{id}}">
+    <div ng-repeat="item in contentItems" class="content-pane-section">
+        <h4 class="content-title">{{item.label}}</h4>
+        <div class="content-block">
+            <img ng-if="item.image" class="content-image" ng-src="{{item.image}}"/>
+            <div class="content-text" ng-bind-html="item.text"></div>
+            <div ng-if="item.list" class="content-list" ng-bind-html="item.list"></div>
+        </div>
+    </div>
+</div>
+

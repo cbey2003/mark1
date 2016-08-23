@@ -1,0 +1,31 @@
+.class-content-pane{
+
+  .content-pane-section {
+    position:relative;
+    display: block;
+    overflow: hidden;
+    width:100%;
+    padding: 20px;
+    border:1px solid #eee;
+    margin:0 auto 25px;
+
+    .content-text {
+      display: inline-block;
+      width: 100%;
+    }
+
+    .content-image {
+      display: block;
+      float: left;
+      width: 100%;
+      height: auto;
+      max-width: 200px;
+
+      + .content-text {
+        width: 75%;
+        margin-left: 25px;
+      }
+    }
+  }
+
+}

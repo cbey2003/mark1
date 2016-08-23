@@ -1,3 +1,12 @@
+/* -- vars.scss START -- */
+/*Config file - all variable and config for project*/
+/*asset paths - base path for image and font files*/
+/*Base Setting*/
+/*Colors*/
+/*ECLIPSE 3.0 VARS*/
+/*Vendor specific variables*/
+/*Other configs*/
+/* -- vars.scss END -- */
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -8,6 +17,12 @@
   width: 100%;
   max-width: 1200px;
   margin: 0 auto; }
+
+p, h1, h2, h3, h4, h5, h6 {
+  margin: 0 0 15px; }
+
+p:last-child {
+  margin: 0; }
 
 .class-accordion {
   margin: 0 0 20px; }
@@ -167,5 +182,26 @@ div {
   clear: both;
   content: '';
   display: block; }
+
+.class-content-pane .content-pane-section {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  width: 100%;
+  padding: 20px;
+  border: 1px solid #eee;
+  margin: 0 auto 25px; }
+  .class-content-pane .content-pane-section .content-text {
+    display: inline-block;
+    width: 100%; }
+  .class-content-pane .content-pane-section .content-image {
+    display: block;
+    float: left;
+    width: 100%;
+    height: auto;
+    max-width: 200px; }
+    .class-content-pane .content-pane-section .content-image + .content-text {
+      width: 75%;
+      margin-left: 25px; }
 
 /*# sourceMappingURL=main.css.map */

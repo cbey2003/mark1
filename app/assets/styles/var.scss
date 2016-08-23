@@ -1,0 +1,278 @@
+/* -- vars.scss START -- */
+/*Config file - all variable and config for project*/
+
+/*asset paths - base path for image and font files*/
+$ute-path-img:                "/web/totes/cms/content/ute/rogers/eclipse/resources/images/brand/rogers";
+$ute-path-font:               "../fonts/brand/rogers";
+
+
+
+/*Base Setting*/
+$ute-font:                    tednext, sans-serif !default;
+$ute-font-weight-light:       300 !default;
+$ute-font-weight-regular:     normal !default;
+$ute-font-weight-semibold:    600 !default;
+$ute-font-weight-heavy:       900 !default;
+$ute-font-line-height:        1.4 !default;
+$ute-font-line-height-2:      1.6 !default;
+$ute-font-size-base:          1.6rem !default;
+$ute-font-size-base-mobile:   1.6rem !default;
+
+$ute-font-size-h1:            3.2rem !default;// 32px
+$ute-font-size-h2:            2.5rem !default;// 25px
+$ute-font-size-h3:            2.6rem !default;// 26px
+$ute-font-size-h4:            1.8rem !default;// 18px
+$ute-font-size-h5:            1.8rem !default;// 18px
+$ute-font-size-h6:            1.8rem !default;// 18px
+
+$ute-font-size-h1-mobile:     3.2rem !default;// 32px
+$ute-font-size-h2-mobile:     2.1rem !default;// 21px
+$ute-font-size-h3-mobile:     2.1rem !default;// 21px
+$ute-font-size-h4-mobile:     1.8rem !default;// 18px
+$ute-font-size-h5-mobile:     1.8rem !default;// 18px
+$ute-font-size-h6-mobile:     1.8rem !default;// 18px
+
+$ute-font-size-copy-1:        1.8rem !default;// 18px
+$ute-font-size-copy-2:        1.6rem !default;// 16px
+$ute-font-size-copy-3:        1.4rem !default;// 14px
+$ute-font-size-copy-4:        1.2rem !default;// 12px
+$ute-font-size-copy-5:        1.6rem !default;// 14px
+$ute-font-size-copy-6:        1.2rem !default;// 12px
+$ute-font-size-copy-7:        1.1rem !default;// 11px
+$ute-font-size-copy-8:        1.0rem !default;// 10px
+
+$ute-font-size-copy-1-mobile: 1.8rem !default;// 18px
+$ute-font-size-copy-2-mobile: 1.6rem !default;// 16px
+$ute-font-size-copy-3-mobile: 1.6rem !default;// 16px
+$ute-font-size-copy-4-mobile: 1.6rem !default;// 16px
+$ute-font-size-copy-5-mobile: 1.4rem !default;// 14px
+$ute-font-size-copy-6-mobile: 1.2rem !default;// 12px
+$ute-font-size-copy-7-mobile: 1.1rem !default;// 12px
+$ute-font-size-copy-8-mobile: 1.0rem !default;// 12px
+
+/*Colors*/
+//pallet colors
+$ute-color-1:                 rgba(218,41,28,1);    // #da291c - red
+$ute-color-2:                 rgba(0, 174, 199, 1); // #00AEC7 - teal blue
+$ute-color-3:                 rgba(255,192,63,1);   // #ffc03f - Yellow
+$ute-color-4:                 rgba(65, 65, 67, 1);  // #414143 - Dark Gray
+$ute-color-5:                 rgba(104,202,218,1);  // #68cada - Medium Aqua
+$ute-color-6:                 rgba(187,228,236,1);  // #bbe4ec - Light Aquate-
+$ute-color-7:                 rgba(255,212,144,1);  // #ffd490 - Medius Yellow
+$ute-color-8:                 rgba(255,233,199,1);  // #bbbdc0 - Light Yellow
+$ute-color-9:                 rgba(128,130,132,1);  // #808284 - Medium Gray
+$ute-color-10:                rgba(187,189,192,1);  // #bbbdc0 - Light Gray
+$ute-color-11:                rgba(238,238,238,1);  // #eeeeee - Lighter Gray
+$ute-color-12:                rgba(240,242,245,1);  // #f0f2f5 - Offwhite
+$ute-color-13:                rgba(10,84,152,1);    // #0a5498 - Hyperlink Blue
+$ute-color-14:                rgba(218,41,28,1);    // #da291c - Links with Chevrons - Red
+$ute-color-15:                rgba(65,64,66,1);     // #414042 - Links with Chevrons - Dark Gray
+$ute-color-16:                rgba(0,150,94,1);     // #00985f - Success Greens
+$ute-color-17:                rgba(255,191,63,1);   // #ffbf3f - Yellow warning
+$ute-color-18:                rgba(0, 174, 199, 1); // #00a0b7 - Rogers Aqua
+$ute-color-19:                rgba(0,160,183,1);    // #da291c - Red Error
+$ute-color-20:                rgba(255,255,255,1);  // #da291c - white Error
+$ute-color-21:                rgba(0,152,95,1);     // #00965e - Chart Line
+$ute-color-22:                rgba(255,191,63,1);   // #FFBF3F - Chart Line over
+$ute-color-24:                rgba(0,174,199,1);    // #00AEC7 - Chart division
+$ute-color-23:                #d9d9d9;  // #d9d9d9 - Lightest Gray
+
+
+
+//base colors
+$ute-color-primary-1:                   $ute-color-1;
+$ute-color-primary:                     $ute-color-1;
+$ute-color-primary-2:                   $ute-color-2;
+$ute-color-secondary:                   $ute-color-2;
+$ute-color-primary-3:                   $ute-color-3;
+$ute-color-tertiary:                    $ute-color-3;
+$ute-color-primary-4:                   $ute-color-4;
+$ute-color-quaternary:                  $ute-color-4;
+$ute-color-secondary-1:                 $ute-color-5;
+$ute-color-secondary-2:                 $ute-color-6;
+$ute-color-secondary-3:                 $ute-color-7;
+$ute-color-secondary-4:                 $ute-color-8;
+$ute-color-secondary-5:                 $ute-color-9;
+$ute-color-secondary-6:                 $ute-color-10;
+$ute-color-secondary-7:                 $ute-color-11;
+$ute-color-secondary-8:                 $ute-color-12;
+
+
+//base colors
+$ute-color-info:                $ute-color-2;
+$ute-color-dark:                $ute-color-4;
+$ute-color-services:            $ute-color-4; // remove after cleaning eclipse 3.0
+$ute-color-light-grey:          $ute-color-10;
+$ute-color-lighter-grey:        $ute-color-11; //TODO : need to be replaced with lightest grey in whole project
+$ute-color-lightest-grey:       $ute-color-23;
+$ute-color-light:               $ute-color-12;
+$ute-color-gold-border:         $ute-color-14; // remove after cleaning eclipse 3.0
+
+
+
+//alert colors
+$ute-color-invalid:             $ute-color-7;// remove after cleaning eclipse 3.0
+$ute-color-modal-icon:          $ute-color-14;// remove after cleaning eclipse 3.0
+
+
+/*ECLIPSE 3.0 VARS*/
+
+//header font-size
+$ute-header-font-size:                  1.2rem;
+
+//header colors
+$ute-header-bg-color:                   $ute-color-20;
+$ute-header-link-color:                 $ute-color-4;
+$ute-header-border-bottom:              $ute-color-11;
+$ute-language-selector-color:           $ute-color-10;
+$ute-logo-background:                   $ute-color-1;
+$ute-top-sign-in-color:                 $ute-color-1;
+$ute-mobile-background-color:           $ute-color-1;
+$ute-mobile-mainmenu-background:        $ute-color-20;
+$ute-mobile-mainmenu-color:             $ute-color-4;
+$ute-mainmenu-active-border-color:      $ute-color-1;
+
+//link Color
+$ute-color-link-primary:                $ute-color-13;
+$ute-color-text-link:                   $ute-color-1;
+$ute-color-link-secondary:              $ute-color-14;
+$ute-color-link-tertiary:               $ute-color-15;
+
+
+
+//alert colors
+$ute-color-alert-success:               $ute-color-16;
+$ute-color-alert-warning:               $ute-color-17;
+$ute-color-alert-info:                  $ute-color-18;
+$ute-color-alert-danger:                $ute-color-1;
+
+
+//divider
+$ute-divider-primary:                   $ute-color-10;
+$ute-divider-secondary:                 $ute-color-1;
+
+//tab colors
+$ute-color-tab-background:              $ute-color-3;
+$ute-color-tab-border:                  $ute-color-9;
+$ute-color-tab-border-active:           $ute-color-1;
+$ute-color-tab-text:                    $ute-color-9;
+$ute-color-tab-text-active:             $ute-color-1;
+$ute-color-tab-secondary-border:        $ute-color-10;
+$ute-color-tab-secondary-color:         $ute-color-13;
+$ute-color-tab-secondary-active:        $ute-color-1;
+$ute-color-tab-tertiary-color:          $ute-color-9;
+$ute-color-tab-tertiary-border:         $ute-color-9;
+$ute-color-tab-tertiary-color-active:   $ute-color-1;
+$ute-color-tab-tertiary-border-active:  $ute-color-1;
+//tabs font size
+$ute-tabs-secondary-font:               1.8rem;
+
+
+//Website colors
+$ute-header-color:              $ute-color-1;
+$ute-header-border-color:       $ute-color-2;
+
+//Modal box colors
+$ute-color-modal-fullpage-bg:           $ute-color-12;
+$ute-color-modal-bg:                    $ute-color-9;
+$ute-color-modal-border:                $ute-color-14;
+$ute-color-modal-popup-bg:              $ute-color-20;
+$ute-modal-close-btn:                   $ute-color-20;
+$ute-modal-close-btn-bg:                $ute-color-20;
+$ute-modal-success-header:              $ute-color-4;
+
+//Button Colors
+$ute-color-btn-primary:                 $ute-color-1;
+$ute-color-btn-primary-txt:             $ute-color-20;
+$ute-color-btn-primary-hover:           $ute-color-4;
+$ute-color-btn-secondary:               $ute-color-20;
+$ute-color-btn-secondary-border:        $ute-color-1;
+$ute-color-btn-secondary-hover:         $ute-color-4;
+$ute-color-btn-secondary-txt:           $ute-color-1;
+$ute-color-btn-tertiary:                $ute-color-3;
+$ute-color-btn-tertiary-txt:            $ute-color-4;
+$ute-color-btn-tertiary-hover:          $ute-color-3;
+
+
+//popover
+$ute-popover-border:                    $ute-color-10;
+$ute-popover-border-hover:              $ute-color-1;
+$ute-popover-details-border:            $ute-color-1;
+$ute-popover-details-close:             $ute-color-4;
+$ute-popover-details-close-bg:          $ute-color-20;
+$ute-popover-details-select-bg:         $ute-color-1;
+$ute-popover-details-select-color:      $ute-color-20;
+$ute-popover-details-bg:                $ute-color-20;
+$ute-popover-details-color:             $ute-color-4;
+$ute-popover-details-icon-color:        $ute-color-1;
+
+
+//tooltip
+$ute-tool-tip-bg:                       $ute-color-6;
+
+//Form Colors
+$ute-color-label:                       #333;
+$ute-color-disabled:                    lighten($ute-color-label, 50%);
+$ute-color-input:                       $ute-color-4;
+$ute-color-input-active:                $ute-color-4;
+$ute-color-input-invalid:               $ute-color-1;
+$ute-color-input-invalid-shadow:        $ute-color-7;
+$ute-color-input-error:                 $ute-color-1;
+$ute-color-checkbox:                    $ute-color-9; //light color
+$ute-color-checkbox-selected:           $ute-color-1;
+$ute-color-radio:                       $ute-color-4;
+$ute-color-radio-selected:              $ute-color-4;
+$ute-dropdown-color:                    $ute-color-4;
+$ute-dropdown-border-color:             $ute-color-4;
+$ute-search-border-color:               $ute-color-9;
+
+//Table Colors
+$ute-color-table-warning:               $ute-color-6;
+$ute-color-table-total:                 $ute-color-5;
+$ute-color-table-border-primary:        $ute-color-8;
+$ute-color-table-border-secondary:      #eef0f0;
+$ute-color-table-hover-primary:         #f5f5f6;
+
+//badge
+$ute-badge-border-color:                $ute-color-11;
+$ute-badge-icon-stethoscope:            $ute-color-1;
+$ute-badge-icon-tv:                     $ute-color-9;
+$ute-badge-header-color:                $ute-color-9;
+$ute-badge-color:                       $ute-color-4;
+
+// Temp Colors
+// Source of Color Names: http://www.color-blindness.com/color-name-hue/
+$ute-color-very-light-grey:             #c9c9c9;
+$ute-color-white-smoke:                 #f7f7f7;
+$ute-color-zircon:                      #eef0f0;
+
+/*Vendor specific variables*/
+//Circles
+$ven-color-meter:                       $ute-color-7;
+$ven-color-meter-full:                  $ute-color-7;
+$ven-color-meter-empty:                 ""; //todo : need to define as per new mockups
+
+//Chartist
+$ven-color-chart-line:                  $ute-color-21;
+$ven-color-chart-line-over:             $ute-color-22;
+$ven-color-chart-division:              $ute-color-24;
+$ven-color-background:                  $ute-color-8;
+$ven-color-chart-point:                 $ute-color-7;
+
+
+//janrain modal
+$janrain-modal-transparent:             $ute-color-10;
+$janrain-modal-bg:                      $ute-color-20;
+
+/*Other configs*/
+//Mixin Variables
+
+
+//Animation Variables
+$ute-anim-time:               600ms;
+$ute-anim-time-fast:          250ms;
+$ute-anim-time-slow:          900ms;
+$ute-anim-easeing:            ease;
+$ute-anim-shrink:             0.95;
+
+/* -- vars.scss END -- */

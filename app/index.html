@@ -6,7 +6,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>ngHeader</title>
+  <title>Prototype - Beautiful</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="bower_components/html5-boilerplate/dist/css/normalize.css">
@@ -23,11 +23,13 @@
 
   <ng-menu menu-Id="menu2" is-primary="false" menu-src="assets/taxonomy/secondary-menu.json"></ng-menu>
 
-  <ng-login username="Username" password="password"></ng-login>
+  <!--ng-login username="Username" password="password"></ng-login-->
 
 </header>
 
 <div class="page">
+  <ng-content-pane content-id="cp1" content-src="assets/content/contentPane.json"></ng-content-pane>
+
   <ng-accordion accordion-Id="acr1" accordion-src="assets/content/accordion.json"></ng-accordion>
 
 
@@ -52,6 +54,7 @@
   -->
   <script src="bower_components/angular/angular.js"></script>
   <script src="bower_components/angular-route/angular-route.js"></script>
+  <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
   <script src="app.js"></script>
   <script src="views/view1/view1.js"></script>
   <script src="views/view2/view2.js"></script>
@@ -61,6 +64,6 @@
   <script src="directives/menu/menu.js"></script>
   <script src="directives/login/login.js"></script>
   <script src="directives/accordion/accordion.js"></script>
-
+  <script src="directives/contentpane/contentPane.js"></script>
 </body>
 </html>
