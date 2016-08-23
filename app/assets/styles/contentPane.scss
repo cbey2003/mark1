@@ -9,6 +9,10 @@
     border:1px solid #eee;
     margin:0 auto 25px;
 
+    .content-title{
+      font-size:1.8rem;
+    }
+
     .content-text {
       display: inline-block;
       width: 100%;
@@ -19,13 +23,37 @@
       float: left;
       width: 100%;
       height: auto;
-      max-width: 200px;
+      max-width: 300px;
+      border: 1px solid #eee;
+    }
 
-      + .content-text {
-        width: 75%;
-        margin-left: 25px;
+    &.ctype-text-image{
+      .content-text {
+        width: 70%;
+        margin-left: 40px;
+      }
+      .content-title{
+        float: right;
+        display: block;
+        width: 71%;
+      }
+      .content-image{
+        margin-top:-50px;
       }
     }
+
+    &.ctype-text-image-list{
+      .content-image{
+        float:right;
+      }
+      .content-text{
+        margin-bottom:20px;
+      }
+      .content-list{
+        float:left;
+      }
+    }
+
   }
 
 }

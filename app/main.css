@@ -191,6 +191,8 @@ div {
   padding: 20px;
   border: 1px solid #eee;
   margin: 0 auto 25px; }
+  .class-content-pane .content-pane-section .content-title {
+    font-size: 1.8rem; }
   .class-content-pane .content-pane-section .content-text {
     display: inline-block;
     width: 100%; }
@@ -199,9 +201,22 @@ div {
     float: left;
     width: 100%;
     height: auto;
-    max-width: 200px; }
-    .class-content-pane .content-pane-section .content-image + .content-text {
-      width: 75%;
-      margin-left: 25px; }
+    max-width: 300px;
+    border: 1px solid #eee; }
+  .class-content-pane .content-pane-section.ctype-text-image .content-text {
+    width: 70%;
+    margin-left: 40px; }
+  .class-content-pane .content-pane-section.ctype-text-image .content-title {
+    float: right;
+    display: block;
+    width: 71%; }
+  .class-content-pane .content-pane-section.ctype-text-image .content-image {
+    margin-top: -50px; }
+  .class-content-pane .content-pane-section.ctype-text-image-list .content-image {
+    float: right; }
+  .class-content-pane .content-pane-section.ctype-text-image-list .content-text {
+    margin-bottom: 20px; }
+  .class-content-pane .content-pane-section.ctype-text-image-list .content-list {
+    float: left; }
 
 /*# sourceMappingURL=main.css.map */
