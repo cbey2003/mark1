@@ -18,7 +18,7 @@
       .class-accordion ul li input {
         visibility: collapse;
         position: absolute; }
-        .class-accordion ul li input:checked ~ .accordion-desc {
+        .class-accordion ul li input.open ~ .accordion-desc {
           height: 100px;
           visibility: visible;
           padding: 5%; }

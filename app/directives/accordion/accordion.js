@@ -2,7 +2,6 @@
 
 angular.module('myApp.accordion', [])
 
-
     .directive('ngAccordion', function() {
         return {
             scope : {
@@ -10,9 +9,19 @@ angular.module('myApp.accordion', [])
                 path : '@accordionSrc'
             },
 
-            link:function ( scope, element, attrs ) {
-                scope.handleClick = function(){
-                    console.log(attrs)
+            link:function ( $scope, element, attrs ) {
+                $scope.handleClick = function(item){
+
+                    var lastState = item.selected;
+
+                    angular.forEach($scope.accordionItems, function (i) {
+                        i.selected = false;
+                    });
+
+                    if(lastState==false){
+                        item.selected = true;
+                    }
+
                 }
             },
 

@@ -4,27 +4,27 @@
     "url": "#acr-item0",
     "tracking":"accordion.link.click.item0",
     "description":"Lorem Ipsum Dolor sit amet",
-    "selected":"true"
+    "selected":true
   },
   {
     "label": "accordion item 1",
     "url": "#acr-item1",
     "tracking":"accordion.link.click.item1",
     "description":"Lorem Ipsum Dolor sit amet",
-    "selected":"false"
+    "selected":false
   },
   {
     "label": "accordion item 2",
     "url": "#acr-item2",
     "tracking":"accordion.link.click.item2",
     "description":"Lorem Ipsum Dolor sit amet",
-    "selected":"false"
+    "selected":false
   },
   {
     "label": "accordion item 3",
     "url": "#acr-item3",
     "tracking":"accordion.link.click.item3",
     "description":"Lorem Ipsum Dolor sit amet",
-    "selected":"false"
+    "selected":false
   }
 ]
