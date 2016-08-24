@@ -3,7 +3,11 @@
         <div class="content-block">
             <h2 class="content-title">{{item.label}}</h2>
             <div class="content-text" ng-bind-html="item.text"></div>
-            <div ng-if="item.type=='text-image-list'" class="content-list" ng-bind-html="item.list"></div>
+            <div ng-if="item.type=='text-image-list'" class="content-list">
+                <ul ng-repeat="list in item.list">
+                    <li ng-bind-html="list.text"></li>
+                </ul>
+            </div>
             <img ng-if="item.type=='text-image' || item.type=='text-image-list'" class="content-image" ng-src="{{item.image}}"/>
         </div>
     </div>

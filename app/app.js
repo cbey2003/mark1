@@ -10,5 +10,6 @@ angular.module('myApp', [
   'myApp.login',
   'myApp.version',
   'myApp.accordion',
-  'myApp.contentPane'
+  'myApp.contentPane',
+  'myApp.product'
 ]);

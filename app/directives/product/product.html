@@ -1,0 +1,12 @@
+<div class="class-product" id="{{id}}">
+    <div ng-repeat="product in products" class="prod-section">
+        <div class="content-block">
+            <h4 class="content-title">{{product.name}}</h4>
+            <div class="content-text" ng-bind-html="product.description"></div>
+            <ul ng-repeat="detail in product.details" class="prod-details">
+               <li>{{detail.text}}</li>
+            </ul>
+        </div>
+    </div>
+</div>
+

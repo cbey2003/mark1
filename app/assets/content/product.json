@@ -1,0 +1,56 @@
+[
+  {
+    "id":"0",
+    "name":"Product Title 0",
+    "type":"text",
+    "description":"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rutrum, odio blandit vulputate blandit, urna lectus egestas tortor, eu laoreet purus justo nec tortor. Maecenas placerat metus et semper euismod. Nulla id mauris bibendum, pretium justo nec, commodo ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean a hendrerit neque, id semper lacus. Nulla gravida purus quis lectus pellentesque, vel molestie augue sagittis. Integer iaculis, ex non rutrum interdum, erat nulla commodo sapien, nec aliquet neque sapien lacinia dui. Nunc elementum eros nisi, at scelerisque ex semper at. Curabitur id dolor at orci pulvinar mollis eu ac nunc. Suspendisse tempor tincidunt ligula eu accumsan. Etiam nec mattis augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel purus pellentesque, mattis tellus id, volutpat enim. Phasellus facilisis malesuada ornare.</p>",
+    "image":"assets/images/default-image.png",
+    "details":[
+      {
+        "text":"product detail 1"
+      },
+      {
+        "text":"product detail 2"
+      },
+      {
+        "text":"product detail 3"
+      }
+    ]
+  },
+  {
+    "id":"1",
+    "name":"Product Title 1",
+    "type":"text-image",
+    "description":"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis in ligula nisl. Vestibulum tincidunt non erat at semper. Aliquam cursus, tellus eget iaculis dictum, nisi ex aliquet eros, id molestie est ligula quis ex. Donec convallis odio a risus fermentum, a euismod turpis elementum. Nunc eget dignissim elit. Donec in tortor dignissim, pharetra purus quis, porta diam. Donec a neque at nunc dapibus blandit non quis lacus. Nunc ut malesuada sapien. Integer varius tortor non varius iaculis. Integer tempor dapibus eros, eu lobortis enim.</p>",
+    "image":"assets/images/default-image.png",
+    "details":[
+      {
+        "text":"product detail 1"
+      },
+      {
+        "text":"product detail 2"
+      },
+      {
+        "text":"product detail 3"
+      }
+    ]
+  },
+  {
+    "id":"2",
+    "name":"Product Title 2",
+    "type":"text-image-details",
+    "description":"<p>Praesent consequat sit amet ex quis commodo. Aenean imperdiet arcu magna, nec laoreet diam imperdiet non. Vestibulum vestibulum convallis nisi, aliquet imperdiet risus pulvinar ac. Suspendisse arcu enim, iaculis non elit a, egestas tincidunt eros. Sed eget urna aliquet, cursus lectus nec, commodo sem. Fusce facilisis ante sed lobortis dignissim. Aenean sapien felis, tincidunt quis diam pharetra, vulputate scelerisque velit.</p>",
+    "image":"assets/images/default-image.png",
+    "details":[
+      {
+        "text":"product detail 1"
+      },
+      {
+        "text":"product detail 2"
+      },
+      {
+        "text":"product detail 3"
+      }
+    ]
+  }
+]

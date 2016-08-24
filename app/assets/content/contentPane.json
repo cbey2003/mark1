@@ -6,7 +6,17 @@
     "text":"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rutrum, odio blandit vulputate blandit, urna lectus egestas tortor, eu laoreet purus justo nec tortor. Maecenas placerat metus et semper euismod. Nulla id mauris bibendum, pretium justo nec, commodo ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean a hendrerit neque, id semper lacus. Nulla gravida purus quis lectus pellentesque, vel molestie augue sagittis. Integer iaculis, ex non rutrum interdum, erat nulla commodo sapien, nec aliquet neque sapien lacinia dui. Nunc elementum eros nisi, at scelerisque ex semper at. Curabitur id dolor at orci pulvinar mollis eu ac nunc. Suspendisse tempor tincidunt ligula eu accumsan. Etiam nec mattis augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel purus pellentesque, mattis tellus id, volutpat enim. Phasellus facilisis malesuada ornare.</p><p>Pellentesque laoreet malesuada laoreet. In pharetra et nibh maximus commodo. Phasellus bibendum nibh sit amet pharetra tincidunt. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed semper felis et magna convallis rhoncus. Curabitur facilisis vel massa et feugiat. Cras imperdiet diam id enim elementum pellentesque. Praesent sed sagittis justo.</p>",
     "image":"assets/images/default-image.png",
     "video":"",
-    "list":"<ul><li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li><li>Mauris rutrum, odio blandit vulputate blandit, urna lectus egestas tortor, eu laoreet purus justo nec tortor.</li><li>Nunc ut malesuada sapien. Integer varius tortor non varius iaculis.</li></ul>"
+    "list":[
+      {
+        "text":"list item 1"
+      },
+      {
+        "text":"list item 2"
+      },
+      {
+        "text":"list item 3"
+      }
+    ]
   },
   {
     "id":"1",
@@ -15,7 +25,17 @@
     "text":"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis in ligula nisl. Vestibulum tincidunt non erat at semper. Aliquam cursus, tellus eget iaculis dictum, nisi ex aliquet eros, id molestie est ligula quis ex. Donec convallis odio a risus fermentum, a euismod turpis elementum. Nunc eget dignissim elit. Donec in tortor dignissim, pharetra purus quis, porta diam. Donec a neque at nunc dapibus blandit non quis lacus. Nunc ut malesuada sapien. Integer varius tortor non varius iaculis. Integer tempor dapibus eros, eu lobortis enim.</p><p>Integer at efficitur ex, at viverra risus. In tempus sit amet orci vel posuere. Nullam quis nisi eget odio tristique cursus nec id tellus. Nunc ipsum leo, pharetra non risus vitae, venenatis tincidunt neque. Nulla quis vulputate nisi. Donec rhoncus tortor felis, ac interdum arcu placerat suscipit. Aenean sit amet arcu at augue sodales mattis nec vitae nunc.</p>",
     "image":"assets/images/default-image.png",
     "video":"",
-    "list":"<ul><li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li><li>Mauris rutrum, odio blandit vulputate blandit, urna lectus egestas tortor, eu laoreet purus justo nec tortor.</li><li>Nunc ut malesuada sapien. Integer varius tortor non varius iaculis.</li></ul>"
+    "list":[
+      {
+        "text":"list item 1"
+      },
+      {
+        "text":"list item 2"
+      },
+      {
+        "text":"list item 3"
+      }
+    ]
   },
   {
     "id":"2",
@@ -24,6 +44,16 @@
     "text":"<p>Praesent consequat sit amet ex quis commodo. Aenean imperdiet arcu magna, nec laoreet diam imperdiet non. Vestibulum vestibulum convallis nisi, aliquet imperdiet risus pulvinar ac. Suspendisse arcu enim, iaculis non elit a, egestas tincidunt eros. Sed eget urna aliquet, cursus lectus nec, commodo sem. Fusce facilisis ante sed lobortis dignissim. Aenean sapien felis, tincidunt quis diam pharetra, vulputate scelerisque velit.</p>",
     "image":"assets/images/default-image.png",
     "video":"",
-    "list":"<ul><li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li><li>Mauris rutrum, odio blandit vulputate blandit, urna lectus egestas tortor, eu laoreet purus justo nec tortor.</li><li>Nunc ut malesuada sapien. Integer varius tortor non varius iaculis.</li></ul>"
+    "list":[
+      {
+        "text":"list item 1"
+      },
+      {
+        "text":"list item 2"
+      },
+      {
+        "text":"list item 3"
+      }
+    ]
   }
 ]
