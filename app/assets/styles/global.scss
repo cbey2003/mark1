@@ -1,0 +1,27 @@
+html{
+  font-size:62.5%; //base font size
+}
+body{
+  font-size:1.6rem;
+}
+.currency{
+  display:block;
+  position:relative;
+  span{
+    font-size:4rem;
+    margin: 0 8px 0 0;
+  }
+  .currency-symbol{
+    margin:0;
+  }
+  sup{
+    font-size: 1.2rem;
+    position: absolute;
+    top: 20px;
+  }
+  sub{
+    font-size: 1.2rem;
+    position: absolute;
+    bottom: 18px;
+  }
+}

@@ -1,3 +1,26 @@
+html {
+  font-size: 62.5%; }
+
+body {
+  font-size: 1.6rem; }
+
+.currency {
+  display: block;
+  position: relative; }
+  .currency span {
+    font-size: 4rem;
+    margin: 0 8px 0 0; }
+  .currency .currency-symbol {
+    margin: 0; }
+  .currency sup {
+    font-size: 1.2rem;
+    position: absolute;
+    top: 20px; }
+  .currency sub {
+    font-size: 1.2rem;
+    position: absolute;
+    bottom: 18px; }
+
 /* -- vars.scss START -- */
 /*Config file - all variable and config for project*/
 /*asset paths - base path for image and font files*/
