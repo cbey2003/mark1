@@ -1,10 +1,12 @@
 <div class="class-product" id="{{id}}">
-    <div ng-repeat="product in products" class="prod-section">
+    <div ng-repeat="product in products" class="product-section">
         <div class="content-block">
             <h4 class="content-title">{{product.name}}</h4>
+            <img class="product-img" ng-src="{{product.image}}"/>
+            <div class="product-price" ng-bind-html="product.price | formatCurrency: '$':'month'"></div>
             <div class="content-text" ng-bind-html="product.description"></div>
-            <ul ng-repeat="detail in product.details" class="prod-details">
-               <li>{{detail.text}}</li>
+            <ul ng-repeat="detail in product.details" class="product-details">
+               <li ng-bind-html="detail.text"></li>
             </ul>
         </div>
     </div>

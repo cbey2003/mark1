@@ -11,5 +11,6 @@ angular.module('myApp', [
   'myApp.version',
   'myApp.accordion',
   'myApp.contentPane',
-  'myApp.product'
+  'myApp.product',
+  'myApp.formatCurrency'
 ]);

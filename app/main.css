@@ -219,4 +219,16 @@ div {
   .class-content-pane .content-pane-section.ctype-text-image-list .content-list {
     float: left; }
 
+.class-product {
+  position: relative; }
+  .class-product .product-section .product-img {
+    width: 100%;
+    height: auto;
+    max-width: 200px;
+    float: left;
+    display: block; }
+  .class-product .product-section .product-price {
+    display: inline-block;
+    font-size: 1.6rem; }
+
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,17 @@
+.class-product{
+  position:relative;
+
+  .product-section {
+    .product-img {
+      width: 100%;
+      height: auto;
+      max-width: 200px;
+      float: left;
+      display: block;
+    }
+    .product-price{
+      display:inline-block;
+      font-size:1.6rem;
+    }
+  }
+}
