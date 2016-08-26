@@ -4,6 +4,10 @@
             <h4 class="content-title">{{product.name}}</h4>
             <img class="product-img" ng-src="{{product.image}}"/>
             <div class="product-price" ng-bind-html="product.price | formatCurrency: '$':'month'"></div>
+            <ng-info-bubble id="{{product.name+$index}}">
+                <span>Save {{product.saving | currency:"$"}} / month </span>
+                <span>on {{product.savingsterm}} term</span>
+            </ng-info-bubble>
             <div class="content-text" ng-bind-html="product.description"></div>
             <ul ng-repeat="detail in product.details" class="product-details">
                <li ng-bind-html="detail.text"></li>

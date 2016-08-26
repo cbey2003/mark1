@@ -12,5 +12,6 @@ angular.module('myApp', [
   'myApp.accordion',
   'myApp.contentPane',
   'myApp.product',
-  'myApp.formatCurrency'
+  'myApp.formatCurrency',
+  'myApp.infoBubble'
 ]);
